@@ -120,8 +120,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       ember-mirage:
-        specifier: github:mansona/ember-mirage#fix-qunit-timing&path:ember-mirage
-        version: https://codeload.github.com/mansona/ember-mirage/tar.gz/123196cf56db5bba6e6cd291abd636317192c3c1#path:ember-mirage(@babel/core@7.27.4)(ember-qunit@9.0.3(@ember/test-helpers@5.2.2(@babel/core@7.27.4))(qunit@2.24.1))(miragejs@0.1.48)
+        specifier: ^0.4.3
+        version: 0.4.3(@babel/core@7.27.4)(ember-qunit@9.0.3(@ember/test-helpers@5.2.2(@babel/core@7.27.4))(qunit@2.24.1))(miragejs@0.1.48)
       ember-modifier:
         specifier: ^4.2.2
         version: 4.2.2(@babel/core@7.27.4)
@@ -3335,9 +3335,8 @@ packages:
     resolution: {integrity: sha512-sVbrU4glI89LL7/h0SOQxdthzs4a0FmvxZ0lXYwi43bNkcSw5YfEtXpIEvgABR0CJxjRZ7GjPy10Jcvv47RIaA==}
     engines: {node: 14.* || 16.* || >= 18}
 
-  ember-mirage@https://codeload.github.com/mansona/ember-mirage/tar.gz/123196cf56db5bba6e6cd291abd636317192c3c1#path:ember-mirage:
-    resolution: {path: ember-mirage, tarball: https://codeload.github.com/mansona/ember-mirage/tar.gz/123196cf56db5bba6e6cd291abd636317192c3c1}
-    version: 0.4.2
+  ember-mirage@0.4.3:
+    resolution: {integrity: sha512-48f3MnVuxw1Vc7/i0PRh6nlP/gIT+CbY9obt6hDAlB2p0EnLLAglnnyQ7MgOZZIvhHiYXQZ7jLLkRWF0FyP8IQ==}
     peerDependencies:
       ember-qunit: '*'
       miragejs: '>= 0.1.47 || >= 0.2.0-alpha.3'
@@ -11180,7 +11179,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-mirage@https://codeload.github.com/mansona/ember-mirage/tar.gz/123196cf56db5bba6e6cd291abd636317192c3c1#path:ember-mirage(@babel/core@7.27.4)(ember-qunit@9.0.3(@ember/test-helpers@5.2.2(@babel/core@7.27.4))(qunit@2.24.1))(miragejs@0.1.48):
+  ember-mirage@0.4.3(@babel/core@7.27.4)(ember-qunit@9.0.3(@ember/test-helpers@5.2.2(@babel/core@7.27.4))(qunit@2.24.1))(miragejs@0.1.48):
     dependencies:
       '@ember/test-helpers': 5.2.2(@babel/core@7.27.4)
       '@embroider/addon-shim': 1.10.0
