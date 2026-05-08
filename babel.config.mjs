@@ -4,7 +4,7 @@ import {
   babelCompatSupport,
   templateCompatSupport,
 } from '@embroider/compat/babel';
-import {templatePlugin} from 'ember-scoped-css/build';
+import { templatePlugin } from 'ember-scoped-css/build';
 
 export default {
   plugins: [

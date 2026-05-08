@@ -20,17 +20,12 @@ import eslintConfigPrettier from 'eslint-config-prettier';
 import qunit from 'eslint-plugin-qunit';
 import n from 'eslint-plugin-n';
 
-import babelParser from '@babel/eslint-parser';
+import babelParser from '@babel/eslint-parser/experimental-worker';
 
 const esmParserOptions = {
   ecmaFeatures: { modules: true },
   ecmaVersion: 'latest',
   requireConfigFile: false,
-  babelOptions: {
-    plugins: [
-      ['@babel/plugin-proposal-decorators', { decoratorsBeforeExport: true }],
-    ],
-  },
 };
 
 export default [
