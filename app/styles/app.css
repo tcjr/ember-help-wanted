@@ -1,3 +1,9 @@
 body {
   background-color: var(--color-gray-100);
 }
+
+.filter-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-2);
+}
