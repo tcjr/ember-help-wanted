@@ -1,9 +1,15 @@
-{{page-title "Help Wanted - Ember.js"}}
+import pageTitle from 'ember-page-title/helpers/page-title';
+import EsHeader from 'ember-styleguide/components/es-header';
+import EsFooter from 'ember-styleguide/components/es-footer';
 
-<EsHeader />
+<template>
+  {{pageTitle "Help Wanted - Ember.js"}}
 
-<main>
-  {{outlet}}
-</main>
+  <EsHeader />
 
-<EsFooter />
+  <main>
+    {{outlet}}
+  </main>
+
+  <EsFooter />
+</template>
