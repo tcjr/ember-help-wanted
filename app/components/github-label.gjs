@@ -1,3 +1,16 @@
+import { htmlSafe } from '@ember/template';
+import Component from '@glimmer/component';
+import invert from 'invert-color';
+
+export default class GithubLabelComponent extends Component {
+  get styleForLabel() {
+    const backgroundColor = this.args.backgroundColor;
+    const color = invert(`#${backgroundColor}`, true);
+
+    return htmlSafe(`background-color: #${backgroundColor}; color: ${color};`);
+  }
+}
+
 <span class="label" style={{this.styleForLabel}}>
   {{remove-emoji-shortcode @label}}
 </span>
